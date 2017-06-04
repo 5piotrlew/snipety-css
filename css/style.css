@@ -118,7 +118,25 @@ q::after, blockquote:after {
     transform: scale(1.5);
 }
 
+/* animacja z sercem - uzyc scala zamiast font-size - wtedy nie skacze strona*/
 
+/*dzieki skali serce nachodzi na tekst i nie porusza tekstem */
+
+.pulse {
+    color: red;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.5)
+    }
+    
+}
 
 
 
