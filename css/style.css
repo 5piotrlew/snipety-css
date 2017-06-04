@@ -73,29 +73,34 @@ input::placeholder{
     margin: 50px;
 }
 
+
+
 #pobieranie a{
     display: block;
     text-decoration: none;
+    color: black;
+    
+}
+
+#pobieranie a[href$=".doc"] {
     color: red;
+}
+
+#pobieranie a[href$=".docx"] {
+    color: green;
 }
 
 
 
-#cytaty p:lang(en)::before, #cytaty p:lang(en)::after {
+#cytaty blockquote:lang(en)::before, #cytaty blockquote:lang(en)::after {
+    
     content: '*';
     
 }
 
-#cytaty p:lang(pl)::first-line {
-    
-        
-}
-#cytaty p:lang(pl)::before {
-    content: '"'
+#cytaty blockquote:lang(pl)::before, #cytaty blockquote:lang(pl)::after {
+    content: '"';
 }
 
 
 
-#pobieranie a:nth-child(2){
-    color: darkgreen;
-}
