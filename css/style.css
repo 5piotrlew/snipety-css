@@ -102,5 +102,23 @@ input::placeholder{
     content: '"';
 }
 
+footer#stopka {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: hotpink;
+}
 
+#tlo {
+    
+    background-image: url(../img/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    transition: all 0.5s;
+}
 
+#tlo:hover {
+    transform: scale(1.5);
+}
