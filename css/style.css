@@ -45,13 +45,40 @@
     }
     
     #gradient {
-        width: 400px;
+        width: 100%;
         height: 100px;
         margin: auto;
-        background: linear-gradient(blue, red, yellow);
-    }
+/*        background: linear-gradient(blue, red, yellow);*/
+                   
+    background: red;  
+    background: linear-gradient(to right, red , yellow, blue, green, purple); 
+}
+    
     
     .video-responsywne iframe {
         width: 100%;
         height: 700px;
     }
+
+
+#lista ul {
+    list-style: none;
+}
+
+input::placeholder{
+    color: red;
+}
+
+#pobieranie {
+    margin: 50px;
+}
+
+#pobieranie a{
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+
+#pobieranie a:nth-child(2){
+    color: darkgreen;
+}
