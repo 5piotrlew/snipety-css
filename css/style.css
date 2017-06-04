@@ -177,4 +177,40 @@ footer#stopka {
 }
 
 
+#kurtyna {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    height: 50%;
+    width: 2000px;
+    
+        animation-name: kurt;
+    animation-duration: 10s;
+}
+
+#kurtynadwa {
+    bottom: 0;
+    position: fixed;
+    background-color: red;
+    height: 50%;
+    width: 2000px;
+    
+        animation-name: kurt;
+    animation-duration: 10s;
+    
+    
+}
+
+
+
+@keyframes kurt {
+    from {
+        height: 0;
+    }
+    to {
+        height: 50%;
+    }
+}
+
 
