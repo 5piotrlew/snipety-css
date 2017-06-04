@@ -79,6 +79,23 @@ input::placeholder{
     color: red;
 }
 
+
+
+#cytaty p:lang(en)::before, #cytaty p:lang(en)::after {
+    content: '*';
+    
+}
+
+#cytaty p:lang(pl)::first-line {
+    
+        
+}
+#cytaty p:lang(pl)::before {
+    content: '"'
+}
+
+
+
 #pobieranie a:nth-child(2){
     color: darkgreen;
 }
